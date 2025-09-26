@@ -1,5 +1,8 @@
 import Image from "next/image";
 import "./heading.css"
+import { FaSearch } from "react-icons/fa";
+import { GiRotaryPhone } from "react-icons/gi";
+import { FaHeart,FaCartPlus, FaUser } from "react-icons/fa";
 export default function Heading(){
    return(
     <div className="heading">
@@ -19,7 +22,7 @@ export default function Heading(){
         <div className="wrap-search">
             <div className="search">
                 <div className="category-search">
-
+                      All Category
                 </div>
 
                 <div className="text-search">
@@ -27,17 +30,26 @@ export default function Heading(){
                 </div>
 
                 <div className="button-search">
-                    
+                    <FaSearch />
                 </div>
             </div>
         </div>
 
         <div className="phone">
+            <div className="logo-phone"><GiRotaryPhone /></div>
+            <div className="number-phone">
+                <p>Hotline 24/7</p>
+                <p className="p-number">082161871509</p>
+            </div>
 
         </div>
 
-        <div className="icon-right">
-
+        <div className="icon-heading">
+            <div className="icon-right">
+                <FaHeart />
+                <FaCartPlus />
+                <FaUser />
+            </div>
         </div>
     </div>
    ) 
