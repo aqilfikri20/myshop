@@ -1,0 +1,43 @@
+.categories {
+    width: 80%;
+    height: 20vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-popular{
+    height: 25%;
+}
+.wrap-categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    height: 75%;
+    width: 100%;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.category img{
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+.border-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
