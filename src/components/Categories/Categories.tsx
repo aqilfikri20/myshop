@@ -15,7 +15,7 @@ export default function Categories(){
                         width={100} 
                         height={100} />
                     </div>
-                    <div><p>Gaming</p></div>
+                    <div ><p>Gaming</p></div>
                 </div>
 
                 <div className="category">
