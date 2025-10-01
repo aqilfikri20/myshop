@@ -4,6 +4,7 @@ import "./globals.css";
 import Heading from "@/components/Heading/Heading";
 import Navbar from "@/components/Navbar/Navbar";
 import Categories from "@/components/Categories/Categories";
+import Product from "@/components/Product/Product";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Heading/>
         <Navbar/>
         <Categories/>
+        <Product/>
         {children}
       </body>
     </html>

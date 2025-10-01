@@ -1,0 +1,49 @@
+.wrap-product{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+}
+
+.text-find{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(58, 197, 244);
+    height: 40px;
+}
+
+.wrap-find{
+    background-color: lightcoral;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    gap: 2%;
+}
+
+.text-find p{
+    font-size: 1.2rem;
+    font-weight: 600;}
+
+.name-find{
+    background-color: #4B3EC4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.wrap-card-product{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+

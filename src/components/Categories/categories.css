@@ -1,6 +1,6 @@
 .categories {
     width: 80%;
-    height: 20vh;
+    height: 25vh;
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,15 @@
 }
 .text-popular{
     height: 25%;
+    width: 100%;
 }
+
+.text-popular p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 1%;}
+    
 .wrap-categories {
     display: flex;
     flex-direction: row;

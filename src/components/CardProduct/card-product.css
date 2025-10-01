@@ -1,0 +1,42 @@
+.card-product{
+    background-color: magenta;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: 10px;
+}
+
+.wrap-image-product{
+    position: relative;
+    background-color: yellow;
+    height: 60%;
+    width: 100%;
+}
+
+.like-product{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.name-product{
+    height: 8%;
+}
+
+.price-product{
+    height: 8%;
+}
+
+.rating-product{
+    height: 8%;
+}
+
+.info-product{
+    height: 8%;
+}
+
+.name-shop{
+    height: 8%;
+}
