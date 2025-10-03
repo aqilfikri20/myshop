@@ -1,0 +1,41 @@
+.wrap-footer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    min-width: 80%;
+}
+
+.footer p{
+    margin-bottom: 7px;
+}
+.footer > div{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    min-width: 16%;
+}
+
+.footer h4{
+    margin-bottom: 15px;
+}
+
+.footer1{
+    padding-right: 100px;
+}
+
+.footer-contact{
+    color: #4B3EC4;
+    display: flex;
+    margin-top: 20px;
+    font-size: 30px; 
+    gap: 10px;  
+}
