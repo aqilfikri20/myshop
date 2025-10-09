@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./heading.css"
+import Link from "next/link";
 import { FaSearch } from "react-icons/fa";
 import { GiRotaryPhone } from "react-icons/gi";
 import { FaHeart,FaCartPlus, FaUser } from "react-icons/fa";
@@ -48,7 +49,7 @@ export default function Heading(){
             <div className="icon-right">
                 <FaHeart />
                 <FaCartPlus />
-                <FaUser />
+                <Link href="/login"><FaUser /></Link>
             </div>
         </div>
     </div>
