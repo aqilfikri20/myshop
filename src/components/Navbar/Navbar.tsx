@@ -1,11 +1,11 @@
 import "./navbar.css"
-
+import Link from "next/link";
 export default function Navbar(){
     return(
         <div className="navbar">
             <div className="wrap-nav-left">
                 <ul  className="nav-left">
-                    <li>Home</li>
+                    <li><Link href="/">Home</Link></li>
                     <li>Pages</li>
                     <li>Product</li>
                     <li>Contact</li>

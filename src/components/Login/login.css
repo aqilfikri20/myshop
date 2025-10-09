@@ -21,16 +21,16 @@
     gap: 30px;
 }
 
-h1{
+.login h1{
     color: #ffffff;
     margin-bottom: 20px;
 }
 
-p{
+.login p{
     color: #ffffff;
     margin-top: 20px;
 }
-button{
+.login button{
     background-color: #ffffff;
     color: #4B3EC4 ;
     padding: 10px;
