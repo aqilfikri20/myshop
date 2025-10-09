@@ -3,10 +3,9 @@ import Link from "next/link";
 
 export default function Register(){
     return(
-        <div>
-        <h1>Register</h1>
+        <div className="register-input">
         <RegisterInput/>
-        <div>Sudah punya akun? Lakukan <Link href="/login">Login</Link></div>
+        <p>Sudah punya akun? Lakukan <Link href="/login">Login</Link></p>
         </div>
     )
 }

@@ -1,9 +1,15 @@
+import './login.css'
+
 export default function LoginInput(){
     return(
+        <>
+            <h1>Login</h1>
             <form  className='login-input'>
-                <input type="email" placeholder='user@gmail.com' />
-                <input type="password" placeholder='123456' />
+                <input type="email" placeholder='Masukkan Email' />
+                <input type="password" placeholder='Masukkan Password' />
                 <button>Masuk</button>
             </form>
+        </>
+
     )
 }
