@@ -1,12 +1,14 @@
 .navbar{
+    background-color: #4B3EC4 ;
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 8vh;
     width: 80%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .wrap-nav-left{
-    background-color: aqua;
     height: 100%;
     width: 50%;
 }
@@ -21,7 +23,6 @@
 }
 
 .wrap-nav-right{
-    background-color: antiquewhite;
     height: 100%;
     width: 50%;
 }
@@ -37,7 +38,9 @@
 }
 
 .navbar li{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
     padding :10px;
+    height: auto;
     border-right: 1px black solid;
 }
