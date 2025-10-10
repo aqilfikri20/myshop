@@ -47,7 +47,8 @@
 .wrap-card-product{
     width: 99%;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, 198px);
+    justify-content: space-around;
+    align-items: center;
 }
 

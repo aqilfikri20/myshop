@@ -2,7 +2,7 @@
     background-color: magenta;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    aspect-ratio: 1/1.8;
     margin: 10px;
 }
 
