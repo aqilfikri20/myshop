@@ -45,7 +45,7 @@
 }
 
 .wrap-card-product{
-    width: 99%;
+    width: 98%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 198px);
     justify-content: space-around;
@@ -54,7 +54,7 @@
 
 @media (max-width: 480px) {
   .wrap-card-product {
-    grid-template-columns: repeat(auto-fill, 108px);
+    grid-template-columns: repeat(auto-fill, 160px);
     margin: 0;
   }
 }

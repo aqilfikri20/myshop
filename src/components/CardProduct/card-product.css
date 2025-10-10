@@ -1,36 +1,53 @@
 .card-product{
-    background-color: magenta;
     display: flex;
     flex-direction: column;
     aspect-ratio: 1/1.8;
     margin: 5px;
+    border-radius: 8px;
+    border: #4B3EC4 solid 2px;
 }
 
 .wrap-image-product{
+    border-radius: 8px;
     position: relative;
-    background-color: yellow;
     height: 60%;
     width: 100%;
 }
 
-.like-product{
-    position: absolute;
-    right: 2px;
-    top: 2px;
-    background-color: lightgray;
-    cursor: pointer;
+.wrap-image-product img{
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
 }
 
+.like-product{
+ position: absolute;
+  right: 5px;
+  bottom: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  background: none;    
+  border: none;   
+  color: #aaa5a5;    
+  padding: 0;          
+  outline: none;       
+  transition: transform 0.2s ease, color 0.2s ease; 
+}
 .name-product{
-    height: 8%;
+    height: 9%;
+    font-size: 20px;
 }
 
 .price-product{
-    height: 8%;
+    height: 9%;
+    font-size: 20px;
+    color: #4B3EC4;
+    font-weight: bold;
 }
 
 .rating-product{
-    height: 8%;
+    height: 6%;
+    font-size: 12px;
+    justify-items: center;
 }
 
 .info-product{
@@ -40,3 +57,4 @@
 .name-shop{
     height: 8%;
 }
+
