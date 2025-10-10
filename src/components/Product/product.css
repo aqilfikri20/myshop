@@ -52,3 +52,9 @@
     align-items: center;
 }
 
+@media (max-width: 480px) {
+  .wrap-card-product {
+    grid-template-columns: repeat(auto-fill, 108px);
+    margin: 0;
+  }
+}
