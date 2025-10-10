@@ -54,3 +54,19 @@
     height: 90%;
     border-radius: 50%;
 }
+
+.link-category {
+    display: contents; 
+}
+
+.category:hover{
+    background-color: #4B3EC4;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.1s ease, background-color 0.1s ease; 
+}
+
+.border-category:hover {
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}

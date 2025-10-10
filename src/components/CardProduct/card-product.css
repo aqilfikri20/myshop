@@ -51,10 +51,14 @@
 }
 
 .info-product{
+    display: flex;
     height: 8%;
+    align-items: center;
 }
 
 .name-shop{
+    display: flex;
     height: 8%;
+    align-items: center;
 }
 
