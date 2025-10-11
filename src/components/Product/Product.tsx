@@ -1,14 +1,9 @@
 import React from "react";
 import "./product.css";
 import CardProduct from "../CardProduct/CardProduct";
+import WrapCardProduct from "./WrapCardProduct";
 
 export default function Product(){
-
-    const products = Array.from({ length: 36 }, (_, i) => ({
-    id: i + 1,
-    name: `Product ${i + 1}`,
-    price: `$${(i + 1) * 10}`
-  }));
 
     return(
         <div className="wrap-product">
@@ -20,12 +15,7 @@ export default function Product(){
                 <div className="name-find"><p>Discount</p></div>
             </div>
 
-            <div className="wrap-card-product">
-                {products.map((product) => (
-                    <CardProduct key={product.id} name={product.name} price={product.price} />
-                ))}
-            </div>
-
+            <WrapCardProduct/>
         </div>
     )
 }
