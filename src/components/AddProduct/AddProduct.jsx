@@ -6,6 +6,7 @@ export default function AddProduct() {
                 <input type="text" placeholder="Nama Barang" />
                 <input type="number" placeholder="Harga Barang" />
                 <input type="text" placeholder="Deskripsi Barang" />
+                <input type="text" placeholder="Kategori Barang" />
                 <input type="number" placeholder="Stok Barang" />
                 <input type="file" />
                 <button type="submit">Tambah</button>
