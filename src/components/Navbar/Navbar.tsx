@@ -6,9 +6,9 @@ export default function Navbar(){
             <div className="wrap-nav-left">
                 <ul  className="nav-left">
                     <li><Link href="/">Home</Link></li>
-                    <li>Pages</li>
-                    <li>Product</li>
-                    <li>Contact</li>
+                    <li><Link href="products">Products</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href="/help">Help</Link></li>
                 </ul>
             </div>
 
