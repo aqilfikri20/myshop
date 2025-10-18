@@ -1,4 +1,7 @@
+"use client"
 import './login.css'
+import {useState} from 'react'
+import { useRouter } from 'next/router'
 
 export default function LoginInput(){
     return(

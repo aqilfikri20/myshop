@@ -30,6 +30,7 @@
     color: #ffffff;
     margin-top: 20px;
 }
+
 .login button{
     background-color: #ffffff;
     color: #4B3EC4 ;
@@ -40,6 +41,7 @@
     font-weight: bold;
     cursor: pointer;
 }
+
 input{
     padding: 10px;
     border-radius: 5px;
