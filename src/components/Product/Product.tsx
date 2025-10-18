@@ -1,3 +1,4 @@
+//Product.tsx
 import React from "react";
 import "./product.css";
 import CardProduct from "../CardProduct/CardProduct";
