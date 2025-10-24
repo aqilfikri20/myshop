@@ -3,11 +3,11 @@ export default function AddProduct() {
         <div>
             <h1>Tambah Barang</h1>
             <form>
-                <input type="text" placeholder="Nama Barang" />
-                <input type="number" placeholder="Harga Barang" />
-                <input type="text" placeholder="Deskripsi Barang" />
-                <input type="text" placeholder="Kategori Barang" />
-                <input type="number" placeholder="Stok Barang" />
+                <input type="text" placeholder="Masukkan Nama Barang" />
+                <input type="number" placeholder="Masukkan Harga Barang" />
+                <input type="text" placeholder="Masukkan Deskripsi Barang" />
+                <input type="text" placeholder="Masukkan Kategori Barang" />
+                <input type="number" placeholder="Masukkan Banyak Barang" />
                 <input type="file" />
                 <button type="submit">Tambah</button>
             </form>
