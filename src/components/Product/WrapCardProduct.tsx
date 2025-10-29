@@ -24,7 +24,7 @@ export default function WrapCardProduct(){
             setLoading(false);
         })
         .catch((err) => {
-            console.error("Error fecthing products", err);
+            console.error("Gagal Mendapatkan Produk", err);
             setLoading(false)
         })
     }, [])

@@ -18,7 +18,7 @@ export default function RegisterInput() {
     const res = await sendOTP(no_hp);
     setLoading(false);
     if (res.error) return setMessage(res.error);
-    setMessage("✅ OTP dikirim ke WhatsApp kamu!");
+    setMessage("OTP dikirim ke WhatsApp kamu!");
     setStep(2);
   };
 
