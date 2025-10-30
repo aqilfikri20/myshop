@@ -1,6 +1,6 @@
 import "addproduct.css"
 
-export default function AddProduct() {
+export default function AddProductComponent() {
     return(
         <div className="wrap-addproduct">
             <h1>Tambah Barang</h1>
