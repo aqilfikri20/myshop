@@ -1,6 +1,8 @@
+import "addproduct.css"
+
 export default function AddProduct() {
     return(
-        <div>
+        <div className="wrap-addproduct">
             <h1>Tambah Barang</h1>
             <form>
                 <input type="text" placeholder="Masukkan Nama Barang" />
