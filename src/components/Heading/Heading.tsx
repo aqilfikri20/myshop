@@ -47,9 +47,9 @@ export default function Heading(){
 
         <div className="icon-heading">
             <div className="icon-right">
-                <FaHeart />
-                <FaCartPlus />
-                <Link href="/login"><FaUser /></Link>
+                <div><FaHeart /><p>Liked</p></div>
+                <div><FaCartPlus /><p>Cart</p></div>
+                <Link href="/login"><div><FaUser /><p>Login</p></div></Link>
             </div>
         </div>
     </div>

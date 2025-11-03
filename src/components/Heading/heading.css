@@ -129,6 +129,19 @@
     gap: 30px;
     font-size: 25px;
     margin-right: 20px;
+}
 
+.icon-right p{
+    font-size: 16px;
+    color: #000000;
+    margin-top: 3;
+    padding: 0;
+}
 
+.icon-right div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
