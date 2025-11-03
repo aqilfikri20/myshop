@@ -6,7 +6,7 @@ import { loginUser } from "../../../lib/api";
 
 export default function LoginInput() {
   const router = useRouter();
-  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
@@ -14,15 +14,17 @@ export default function LoginInput() {
     e.preventDefault();
 
     try {
-      const data = await loginUser({ email, password });
+      const data = await loginUser({ phone, password });
 
       // Kalau API kamu mengembalikan token atau user info:
       localStorage.setItem("token", data.token);
+      localStorage.setItem("userFullName", data.user.full_name);
+
 
       // Redirect ke dashboard
       router.push("/");
     } catch (err) {
-      setError("Login gagal, periksa kembali email dan password kamu.");
+      setError("Login gagal, periksa kembali nomor HP dan password kamu.");
     }
   }
 
@@ -31,10 +33,10 @@ export default function LoginInput() {
       <h1>Login</h1>
       <form className="login-input" onSubmit={handleSubmit}>
         <input
-          type="email"
-          placeholder="Masukkan Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          type="text"
+          placeholder="No Hp"
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
           required
         />
         <input

@@ -1,3 +1,6 @@
+//Heading.tsx
+"use client";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import "./heading.css"
 import Link from "next/link";
@@ -5,6 +8,13 @@ import { FaSearch } from "react-icons/fa";
 import { GiRotaryPhone } from "react-icons/gi";
 import { FaHeart,FaCartPlus, FaUser } from "react-icons/fa";
 export default function Heading(){
+  const [userName, setUserName] = useState<string | null>(null);
+
+  useEffect(() => {
+    const name = localStorage.getItem("userFullName");
+    if (name) setUserName(name);
+  }, []);
+
    return(
     <div className="heading">
         <div className="logo">
@@ -49,7 +59,7 @@ export default function Heading(){
             <div className="icon-right">
                 <div><FaHeart /><p>Liked</p></div>
                 <div><FaCartPlus /><p>Cart</p></div>
-                <Link href="/login"><div><FaUser /><p>Login</p></div></Link>
+                <Link href="/login"><div><FaUser /><p>{userName ? userName : "Login"}</p></div></Link>
             </div>
         </div>
     </div>
