@@ -49,13 +49,16 @@ input{
     font-size: 16px;
 }
 
-.login a{
+.login-google a{
     font-weight: bold;
     text-decoration: none;
 }
 
 .login-google{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     background-color: #ffffff;
     color: #4B3EC4 ;
@@ -67,5 +70,4 @@ input{
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
-    display: inline-block;
 }
