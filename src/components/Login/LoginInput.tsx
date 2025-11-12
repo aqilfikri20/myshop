@@ -24,7 +24,7 @@ export default function LoginInput() {
       // Redirect ke dashboard
       router.push("/");
     } catch (err) {
-      setError("Login gagal, periksa kembali nomor HP dan password kamu.");
+      setError("Login gagal, periksa kembali nomor HP dan password kamu");
     }
   }
 
